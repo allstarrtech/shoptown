@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 # Use hirb for better display of database table in console
 gem 'hirb'
+gem 'mail_form'
+gem 'figaro'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

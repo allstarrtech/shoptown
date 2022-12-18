@@ -67,6 +67,8 @@ GEM
     erubis (2.7.0)
     execjs (2.8.1)
     ffi (1.15.5)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hirb (0.7.3)
@@ -90,6 +92,9 @@ GEM
       net-imap
       net-pop
       net-smtp
+    mail_form (1.8.1)
+      actionmailer (>= 5.0)
+      activemodel (>= 5.0)
     method_source (1.0.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
@@ -191,10 +196,12 @@ DEPENDENCIES
   bootstrap-sass
   byebug
   coffee-rails (~> 4.2)
+  figaro
   hirb
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  mail_form
   pg (~> 0.12.0)
   puma (~> 3.0)
   rails (~> 5.0.0)
