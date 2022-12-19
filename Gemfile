@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 # Use hirb for better display of database table in console
 gem 'hirb'
 gem 'mail_form'
+# To save sensitive information such as username and password as environment variables
 gem 'figaro'
 
 # Use Capistrano for deployment
@@ -58,4 +59,3 @@ group :production do
   gem 'pg', '~> 0.12.0'
 end
 
-ruby '2.6.3'
